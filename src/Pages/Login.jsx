@@ -4,7 +4,9 @@ import FormLogin from "../Components/Login/FormLogin";
 const Login = () => {
     return (
         <>
+        <main>
             <FormLogin />
+        </main>
         </>
     )
 }

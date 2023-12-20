@@ -3,7 +3,11 @@ import FormRegister from "../Components/Login/FormRegister";
 
 const Register = () => {
     return (
-        <FormRegister />
+        <>
+            <main>
+                <FormRegister />
+            </main>
+        </>
     )
 }
 export default Register
