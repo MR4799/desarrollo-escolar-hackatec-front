@@ -1,0 +1,11 @@
+@import "../../assets/sass/variables.scss";
+
+.button__white{
+    padding: 0.5rem;
+    background-color: #ffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    border-radius: 10px;
+}

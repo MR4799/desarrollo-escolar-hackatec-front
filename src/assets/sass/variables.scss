@@ -1,0 +1,19 @@
+//colores para el background
+$colorGuindaBackground: #610000;
+:export {
+    colorGuindaBackground: $colorGuindaBackground;
+}
+
+//para el tamaño de la letra
+$font-size30: 30px;
+:export {
+    font-size40: $font-size30;
+}
+
+//para el padding
+$padding2rem: 2rem;
+$padding5rem: 5rem;
+:export {
+    padding5rem: $padding5rem;
+    padding2rem: $padding2rem;
+}

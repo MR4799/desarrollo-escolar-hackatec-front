@@ -1,0 +1,25 @@
+@import "../../../assets/sass/variables.scss";
+
+.sidebar__contain{
+    width: 15rem;
+    height: 100vh;
+    background-color: $colorGuindaBackground;
+    .sidebar__links{
+        padding: 2rem;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        li{
+            list-style-type: none;
+            cursor: pointer;
+            color: #fff;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
